@@ -1,54 +1,65 @@
-export const DataSet1 = [
+export const popularDevelopers = [
   {
-    title: "DataSet1",
-    data: [
-      {
-        name: "김지은",
-        phoneNumber: "010-1234-5678",
-        email: "jieun.kim@naver.com",
-      },
-      {
-        name: "박현우",
-        phoneNumber: "010-9876-5432",
-        email: "hyunwoo.park@daum.net",
-      },
-      {
-        name: "이영미",
-        phoneNumber: "010-4567-1234",
-        email: "youngmi.lee@kakao.com",
-      },
-      {
-        name: "최재혁",
-        phoneNumber: "010-7890-1234",
-        email: "jaehyuk.choi@naver.com",
-      },
-      {
-        name: "정민수",
-        phoneNumber: "010-6543-2109",
-        email: "minsoo.jung@daum.net",
-      },
-      {
-        name: "윤하린",
-        phoneNumber: "010-2345-6789",
-        email: "harin.yoon@kakao.com",
-      },
-    ],
-    path: "/",
+    name: "Jimmy",
+    img: "https://media.licdn.com/dms/image/D4D03AQGIxd-BionXWQ/profile-displayphoto-shrink_800_800/0/1683486219744?e=1701302400&v=beta&t=iibgoRdGza1rALmAZhHlOm4SCme1chE4xsTtYnLT79g",
+    desc: "Hosting best raves in town",
+    hostedEvents: Array(677).fill({}), // Mock data with 677 events
+  },
+  {
+    name: "Anna",
+    img: "https://i.pravatar.cc/150",
+    desc: "Master of ceremonies",
+    hostedEvents: Array(543).fill({}), // Mock data
+  },
+  {
+    name: "Robert",
+    img: "https://i.pravatar.cc/151",
+    desc: "Epic weekend parties",
+    hostedEvents: Array(432).fill({}), // Mock data
+  },
+  {
+    name: "Sophia",
+    img: "https://i.pravatar.cc/152",
+    desc: "Beach party lover",
+    hostedEvents: Array(321).fill({}), // Mock data
+  },
+  {
+    name: "Lucas",
+    img: "https://i.pravatar.cc/153",
+    desc: "Moonlight dance parties",
+    hostedEvents: Array(210).fill({}), // Mock data
   },
 ];
 
-export const DataSet2 = [
+export const popularEntrepreneurs = [
   {
-    title: "DataSet2",
-    data: [],
-    path: "/",
+    name: "Sam",
+    img: "https://i.pravatar.cc/122",
+    desc: "Hosting best raves in town",
+    hostedEvents: Array(677).fill({}), // Mock data with 677 events
   },
-];
-
-export const DataSet3 = [
   {
-    title: "DataSet2",
-    data: [],
-    path: "/",
+    name: "Amie",
+    img: "https://i.pravatar.cc/120",
+    desc: "Master of ceremonies",
+    hostedEvents: Array(543).fill({}), // Mock data
+  },
+  {
+    name: "Robert",
+    img: "https://i.pravatar.cc/111",
+    desc: "Epic weekend parties",
+    hostedEvents: Array(432).fill({}), // Mock data
+  },
+  {
+    name: "Suzan",
+    img: "https://i.pravatar.cc/113",
+    desc: "Beach party lover",
+    hostedEvents: Array(321).fill({}), // Mock data
+  },
+  {
+    name: "Lucas",
+    img: "https://i.pravatar.cc/133",
+    desc: "Moonlight dance parties",
+    hostedEvents: Array(210).fill({}), // Mock data
   },
 ];
